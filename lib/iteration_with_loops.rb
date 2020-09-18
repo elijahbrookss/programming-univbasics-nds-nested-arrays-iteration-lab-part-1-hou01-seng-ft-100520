@@ -5,7 +5,7 @@ def find_even_values(src)
   
   for outerlist in src do
     for innerlist in outerlist do
-      p innerlist
+      if innerlist.Is
     end
   end
   
