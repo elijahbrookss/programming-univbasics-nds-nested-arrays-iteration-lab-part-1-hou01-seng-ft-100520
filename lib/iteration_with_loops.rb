@@ -5,10 +5,11 @@ def find_even_values(src)
   
   for outerlist in src do
     for innerlist in outerlist do
-      if innerlist.Is
+      if innerlist.even? then
+        p innerlist   
+      end
     end
   end
-  
 end
 
 find_even_values([ [10, 11], [99, 50, 3, 4], [23, 41] ])
