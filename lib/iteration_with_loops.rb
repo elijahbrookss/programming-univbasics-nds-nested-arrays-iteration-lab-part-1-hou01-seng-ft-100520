@@ -3,8 +3,10 @@ def find_even_values(src)
   #
   # Output all even values in each nested array
   
-  for index in src do
-    p index
+  for outerlist in src do
+    for innerlist in outerlist do
+      p innerlist
+    end
   end
   
 end
